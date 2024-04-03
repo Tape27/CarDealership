@@ -1,0 +1,47 @@
+﻿body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#header {
+    background-color: black;
+    height: 60px;
+}
+
+.nav {
+    padding-top: 1%;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.notification {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    padding: 2px 2px;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.invisible {
+    display: none;
+}
+
+.orders-text {
+    margin-left: 10px;
+}

@@ -1,0 +1,13 @@
+﻿.links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.item-links {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 40px;
+}

@@ -1,0 +1,13 @@
+﻿#main {
+    background-color: #1e1d1f;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.contacts{
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+}

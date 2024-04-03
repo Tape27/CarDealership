@@ -1,0 +1,1318 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\profi\\Desktop\\Dealership\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\shared\\_admheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\shared\\_admheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|c:\\users\\profi\\desktop\\dealership\\dealership\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\clientapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\services\\clientapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\client\\sendorder.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\client\\sendorder.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\lib\\jquery\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\lib\\jquery\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\viewmodels\\viewadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\models\\viewmodels\\viewadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\viewcars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\viewcars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\createcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\createcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\validatenewcar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\validatenewcar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\cars\\cardetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\cars\\cardetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\allorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\allorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\viewmodels\\viewcarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\models\\viewmodels\\viewcarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\viewmodels\\viewordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\models\\viewmodels\\viewordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\deletecar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\deletecar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\sendcompletedorder.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\sendcompletedorder.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\validateeditcar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\validateeditcar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\validateedituser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\validateedituser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\validatenewuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\validatenewuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\getnotifcount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\getnotifcount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\js\\admin\\deleteuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\js\\admin\\deleteuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\admin_css\\admin_viewtables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\css\\admin_css\\admin_viewtables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\admin_css\\admin_header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\css\\admin_css\\admin_header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\cars\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\cars\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\error\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\error\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\api\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\api\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\api\\clientapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\api\\clientapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\client_css\\client_header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\css\\client_css\\client_header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\interface\\iadminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\services\\interface\\iadminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\interface\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\services\\interface\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\datacontext\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\datacontext\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\dealership.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\dealership.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\dealership.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A8700D30-43AE-4BDA-BB53-9F2092C2DC1B}|Dealership\\Dealership.csproj|solutionrelative:dealership\\dealership.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\profi\\desktop\\dealership\\dealership\\views\\admin\\editcars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\views\\admin\\editcars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\adminsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\adminsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\interface\\iadminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\services\\interface\\iadminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\profi\\desktop\\dealership\\dealership\\wwwroot\\css\\admin_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\profi\\desktop\\dealership\\dealership\\wwwroot\\css\\admin_createtables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_createtables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\profi\\desktop\\dealership\\dealership\\wwwroot\\css\\admin_viewtables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_viewtables.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\profi\\desktop\\dealership\\dealership\\wwwroot\\css\\admin_orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\services\\interface\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\services\\interface\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\admin_main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\admin_header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\wwwroot\\css\\admin_database.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\wwwroot\\css\\admin_database.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\profi\\desktop\\dealership\\dealership\\models\\createordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\createordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\views\\admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\views\\admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\createcarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\createcarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\createadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\createadminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\profi\\Desktop\\Dealership\\dealership\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dealership\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "RelativeToolTip": "Dealership\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-03-21T16:46:39.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SendOrder.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Client\\SendOrder.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Client\\SendOrder.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Client\\SendOrder.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Client\\SendOrder.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-30T14:19:45.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\ClientService.cs",
+              "RelativeToolTip": "Dealership\\Services\\ClientService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T01:20:05.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bootstrap.rtl.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-30T16:41:58.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T17:16:23.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T23:07:11.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\EditCar.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\EditCar.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\EditCar.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\EditCar.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T20:45:43.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientApiService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\ClientApiService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\ClientApiService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\ClientApiService.cs",
+              "RelativeToolTip": "Dealership\\Services\\ClientApiService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:59:20.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdmHeader.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Shared\\_AdmHeader.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Shared\\_AdmHeader.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Shared\\_AdmHeader.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Shared\\_AdmHeader.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T22:58:16.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T15:48:40.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T15:37:53.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAcwIkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-30T16:40:49.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LICENSE.txt",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\jquery\\LICENSE.txt",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\lib\\jquery\\LICENSE.txt",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\jquery\\LICENSE.txt",
+              "RelativeToolTip": "Dealership\\wwwroot\\lib\\jquery\\LICENSE.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-30T16:41:45.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-30T16:41:54.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-30T16:41:57.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\Orders.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T21:37:44.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\Main.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\Main.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\Main.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\Main.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T18:59:36.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewCars.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\ViewCars.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\ViewCars.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\ViewCars.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\ViewCars.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T19:50:49.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DataBase.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\DataBase.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\DataBase.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\DataBase.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\DataBase.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T15:18:58.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Dealership\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Dealership\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAUwIYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:14:50.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewAdminModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\ViewModels\\ViewAdminModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\ViewModels\\ViewAdminModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\ViewModels\\ViewAdminModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\ViewModels\\ViewAdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:08:24.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\AdminService.cs",
+              "RelativeToolTip": "Dealership\\Services\\AdminService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwFsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:23:10.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "Dealership\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "Dealership\\Controllers\\ErrorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T23:16:34.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Program.cs",
+              "RelativeDocumentMoniker": "Dealership\\Program.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Program.cs",
+              "RelativeToolTip": "Dealership\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:07:54.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T22:41:06.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\CreateCar.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\CreateCar.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\CreateCar.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\CreateCar.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T16:14:22.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ValidateNewCar.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateNewCar.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\ValidateNewCar.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateNewCar.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\ValidateNewCar.js",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:34:27.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CarDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Cars\\CarDetails.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Cars\\CarDetails.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Cars\\CarDetails.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Cars\\CarDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T16:09:26.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AllOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\AllOrders.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\AllOrders.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\AllOrders.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\AllOrders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T17:19:41.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\AccessDenied.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T22:04:27.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Dealership\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Dealership\\Controllers\\CarsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:59:13.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ViewCarModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\ViewModels\\ViewCarModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\ViewModels\\ViewCarModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\ViewModels\\ViewCarModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\ViewModels\\ViewCarModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:17:54.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ViewOrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\ViewModels\\ViewOrderModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\ViewModels\\ViewOrderModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\ViewModels\\ViewOrderModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\ViewModels\\ViewOrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T22:17:48.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ViewUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\ViewUsers.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\ViewUsers.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T16:55:50.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeleteCar.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\DeleteCar.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\DeleteCar.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\DeleteCar.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\DeleteCar.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:41:11.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SendCompletedOrder.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\SendCompletedOrder.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\SendCompletedOrder.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\SendCompletedOrder.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\SendCompletedOrder.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:39:26.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ValidateEditCar.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateEditCar.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\ValidateEditCar.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateEditCar.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\ValidateEditCar.js",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:37:15.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ValidateEditUser.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateEditUser.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\ValidateEditUser.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateEditUser.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\ValidateEditUser.js",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:38:11.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ValidateNewUser.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateNewUser.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\ValidateNewUser.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\ValidateNewUser.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\ValidateNewUser.js",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:36:15.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetNotifCount.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\GetNotifCount.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\GetNotifCount.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\GetNotifCount.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\GetNotifCount.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:44:56.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeleteUser.js",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\DeleteUser.js",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\js\\Admin\\DeleteUser.js",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\js\\Admin\\DeleteUser.js",
+              "RelativeToolTip": "Dealership\\wwwroot\\js\\Admin\\DeleteUser.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-29T23:41:58.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\appsettings.json",
+              "RelativeDocumentMoniker": "Dealership\\appsettings.json",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\appsettings.json",
+              "RelativeToolTip": "Dealership\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T20:41:49.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Admin_ViewTables.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Css\\Admin_ViewTables.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_Css\\Admin_ViewTables.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Css\\Admin_ViewTables.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_Css\\Admin_ViewTables.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-29T23:55:11.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Admin_Header.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Css\\Admin_Header.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_Css\\Admin_Header.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Css\\Admin_Header.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_Css\\Admin_Header.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-29T23:55:17.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Cars\\Main.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Cars\\Main.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Cars\\Main.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Cars\\Main.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T14:07:26.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ErrorPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Error\\ErrorPage.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Error\\ErrorPage.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Error\\ErrorPage.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Error\\ErrorPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T22:31:14.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AdminApi.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Api\\AdminApi.cs",
+              "RelativeDocumentMoniker": "Dealership\\Api\\AdminApi.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Api\\AdminApi.cs",
+              "RelativeToolTip": "Dealership\\Api\\AdminApi.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T22:59:10.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ClientApi.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Api\\ClientApi.cs",
+              "RelativeDocumentMoniker": "Dealership\\Api\\ClientApi.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Api\\ClientApi.cs",
+              "RelativeToolTip": "Dealership\\Api\\ClientApi.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:51:25.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Client_Header.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Client_Css\\Client_Header.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Client_Css\\Client_Header.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Client_Css\\Client_Header.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Client_Css\\Client_Header.css",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-29T23:29:15.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dealership\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dealership\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:07:34.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T16:51:00.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Home\\Contacts.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Home\\Contacts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T16:51:11.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CreateOrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CreateOrderModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\CreateOrderModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CreateOrderModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\CreateOrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:53:46.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\OrderModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\OrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:28:48.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdminApiService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\AdminApiService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\AdminApiService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\AdminApiService.cs",
+              "RelativeToolTip": "Dealership\\Services\\AdminApiService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAewBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T22:02:51.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Admin_Login.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Login.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_Login.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Login.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_Login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-28T16:13:59.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\index.html",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\index.html",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\index.html",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-24T19:52:38.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Admin_CreateTables.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_CreateTables.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_CreateTables.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_CreateTables.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_CreateTables.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-26T16:17:10.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Admin_ViewTables.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_ViewTables.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_ViewTables.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_ViewTables.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_ViewTables.css",
+              "ViewState": "AQIAADIAAAAAAAAAAAAkwEIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-26T15:41:33.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IAdminApiService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\IAdminApiService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\Interface\\IAdminApiService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\IAdminApiService.cs",
+              "RelativeToolTip": "Dealership\\Services\\Interface\\IAdminApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:22:59.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\Interface\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\IAdminService.cs",
+              "RelativeToolTip": "Dealership\\Services\\Interface\\IAdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:05:51.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\CarService.cs",
+              "RelativeToolTip": "Dealership\\Services\\CarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:57:16.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Admin_Orders.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Orders.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_Orders.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Orders.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_Orders.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-26T15:41:19.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CreateCarModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CreateCarModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\CreateCarModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CreateCarModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\CreateCarModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T16:58:13.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CreateAdminModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CreateAdminModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\CreateAdminModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CreateAdminModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\CreateAdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T22:44:26.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AdminModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\AdminModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\AdminModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\AdminModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\AdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T20:21:11.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CarModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\CarModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\CarModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\CarModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:33:04.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\DataContext\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Dealership\\DataContext\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\DataContext\\ApplicationContext.cs",
+              "RelativeToolTip": "Dealership\\DataContext\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:49:02.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\ICarService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\Interface\\ICarService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\ICarService.cs",
+              "RelativeToolTip": "Dealership\\Services\\Interface\\ICarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:57:07.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Admin_Main.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Main.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_Main.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Main.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_Main.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-26T15:34:57.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Admin_Header.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Header.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_Header.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_Header.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_Header.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-26T15:41:12.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Admin_DataBase.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_DataBase.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\Admin_DataBase.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\Admin_DataBase.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\Admin_DataBase.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-26T15:34:43.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\admin.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-23T22:59:42.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-20T21:08:58.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EditCars.cshtml",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\EditCars.cshtml",
+              "RelativeDocumentMoniker": "Dealership\\Views\\Admin\\EditCars.cshtml",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Views\\Admin\\EditCars.cshtml",
+              "RelativeToolTip": "Dealership\\Views\\Admin\\EditCars.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T20:59:04.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "Dealership\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-22T05:38:31.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AdminsModel.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\AdminsModel.cs",
+              "RelativeDocumentMoniker": "Dealership\\Models\\AdminsModel.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Models\\AdminsModel.cs",
+              "RelativeToolTip": "Dealership\\Models\\AdminsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T17:17:58.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IAdminAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\IAdminAuthService.cs",
+              "RelativeDocumentMoniker": "Dealership\\Services\\Interface\\IAdminAuthService.cs",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Services\\Interface\\IAdminAuthService.cs",
+              "RelativeToolTip": "Dealership\\Services\\Interface\\IAdminAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T22:05:02.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Dealership\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Dealership\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T20:41:55.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Dealership.csproj",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+              "RelativeDocumentMoniker": "Dealership\\Dealership.csproj",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+              "RelativeToolTip": "Dealership\\Dealership.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-20T20:41:33.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Dealership",
+              "DocumentMoniker": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+              "RelativeDocumentMoniker": "Dealership\\Dealership.csproj",
+              "ToolTip": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+              "RelativeToolTip": "Dealership\\Dealership.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-21T16:59:15.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

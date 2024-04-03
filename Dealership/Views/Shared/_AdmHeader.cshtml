@@ -1,0 +1,32 @@
+﻿<div class="header-line">
+    <div class="nav">
+        <a class="nav-item" href="/admin/index">Главная</a>
+        <div class="notification">
+            <span class="badge invisible">0</span>
+            <a class="nav-item" href="/admin/orders">
+                <span class="orders-text">Заявки</span>
+            </a>
+        </div>
+        <a class="nav-item" href="/admin/database">База данных</a>
+        <a class="nav-item" id="butt-logout" href="/admin/logout">Выход</a>
+    </div>
+</div>
+
+<script>
+    function getNotificationCount() {
+        fetch('/admin/api/CountNotification')
+            .then(response => response.json())
+            .then(count => {
+                var badge = document.querySelector('.notification .badge');
+                badge.textContent = count;
+                if (count > 0) {
+                    badge.classList.remove('invisible');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+
+    window.onload = getNotificationCount;
+</script>

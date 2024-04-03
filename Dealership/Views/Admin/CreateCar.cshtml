@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/Admin_Css/Admin_Header.css" />
+    <link rel="stylesheet" href="/css/Admin_Css/Admin_CreateTables.css" />
+    <script src="/js/Admin/ValidateNewCar.js"></script>
+
+    <title>Добавления нового авто</title>
+    <style>
+        .info{
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        @await Html.PartialAsync("_AdmHeader")
+    </div>
+    <div id="main">
+        @{
+            var error = ViewData["Error"] as string;
+
+            <div class="info">
+                @if (!string.IsNullOrEmpty(error))
+                {
+                    var color = error == "Авто успешно добавлено в базу данных" ? "green" : "red";
+                    <p style="color: @color">@error</p>
+                }
+            </div>
+
+        }
+        <form id="createCarForm" action="/admin/createcar" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div class="form-group">
+                <label for="Image">Фото: (Только .jpeg/jpg)</label>
+                <input type="file" id="image" name="image" accept="image/jpeg">
+            </div>
+            <div class="form-group">
+                <label for="Name">Название:</label>
+                <input type="text" id="name" name="name" required>
+                <span style="color:red" class="text-danger" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Description">Описание:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                <span style="color:red" class="text-danger" id="descriptionError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Year">Год выпуска:</label>
+                <input type="number" id="year" name="year" required>
+                <span style="color:red" class="text-danger" id="yearError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Power">Мощность:</label>
+                <input type="number" id="power" name="power" required>
+                <span style="color:red" class="text-danger" id="powerError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Price">Цена:</label>
+                <input type="number" id="price" name="price" step="0.01" required>
+                <span style="color:red" class="text-danger" id="priceError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Exists">В наличии:</label>
+                <select id="Exists" name="Exists" required>
+                    <option value="true">Да</option>
+                    <option value="false">Нет</option>
+                </select>
+            </div>
+            <button type="submit">Добавить авто в базу данных</button>
+        </form>
+    </div>
+    <div id="footer"></div>
+    <script>
+    </script>
+</body>
+</html>
