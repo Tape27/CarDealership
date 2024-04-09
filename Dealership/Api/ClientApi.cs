@@ -1,6 +1,6 @@
-﻿using Dealership.Services.Interface;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Dealership.Models.ViewModels;
+using Dealership.Services.Interface;
 
 namespace Dealership.Api
 {
@@ -18,14 +18,13 @@ namespace Dealership.Api
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromForm] ViewOrderModel newOrder)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                await _clientApiService.CreateOrderAsync(newOrder);
+                return Ok();
             }
 
-            await _clientApiService.CreateOrderAsync(newOrder);
-
-            return Ok();
+            return BadRequest(ModelState);
         }
     }
 }

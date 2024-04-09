@@ -1,7 +1,4 @@
-using Dealership.Models;
-using Dealership.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace Dealership.Controllers
 {

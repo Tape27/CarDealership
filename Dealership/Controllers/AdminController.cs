@@ -1,14 +1,16 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Dealership.Services.Interface;
 using Dealership.Models.ViewModels;
+using Dealership.Services.Interface;
+using Dealership.Services.Interface.Admin;
 
 namespace Dealership.Controllers
 {
     public class AdminController : Controller
     {
+        private readonly IAdminAuthenticationService _adminAuthService;
         private readonly IAdminService _adminService;
-        public AdminController(IAdminService adminService) 
+        public AdminController(IAdminService adminService, IAdminAuthenticationService adminAuthService) 
         { 
             _adminService = adminService; 
         }
@@ -16,7 +18,7 @@ namespace Dealership.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            if (_adminService.IsAuthenticatedAsync())
+            if (_adminAuthService.IsAuthenticatedAsync())
                 return RedirectToAction("Index", "Admin");
 
             return View();
@@ -24,7 +26,7 @@ namespace Dealership.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string login, string password)
         {
-            if (await _adminService.AuthenticationAsync(login,password))
+            if (await _adminAuthService.AuthenticationAsync(login,password))
             {
                 return RedirectToAction("Index", "Admin");
             }
@@ -36,7 +38,7 @@ namespace Dealership.Controllers
         }
         public async Task<IActionResult> Logout()
         {
-            await _adminService.LogoutAsync();
+            await _adminAuthService.LogoutAsync();
             return View("Login");
         }
 
@@ -132,8 +134,10 @@ namespace Dealership.Controllers
         {
             var car = await _adminService.GetCarByIdAsync(carId);
 
-            if (car is null)
+            if (car == null)
+            {
                 return NotFound();
+            }
 
             return View(car);
         }

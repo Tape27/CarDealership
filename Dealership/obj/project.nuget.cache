@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4IHByhQjTAiMrxYms0uQ83lyVpo8CYGW/grHKqGqNR7YdbUJHDikFLzXlQsUJcc579Fs9lLbb/4WujD77atCng==",
+  "dgSpecHash": "B03YEh8zW/YhHci/j3MI3Sdq9RN5C4lsKeP9eUJ/iNGIGsL6beAWrSqn98bqTBuv92E6wZH158MH/UgJhbnfgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+  "projectFilePath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\Dealership\\Dealership.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\profi\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,25 +1,19 @@
 ﻿using Dealership.DataContext;
-using Dealership.Services.Interface;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Dealership.Models.ViewModels;
 using Dealership.Models.DbModels;
+using Dealership.Services.Interface;
 
-namespace Dealership.Services
+namespace Dealership.Services.Admin
 {
     public class AdminService : IAdminService
     {
-        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ApplicationContext _dbContext;
         private readonly IWebHostEnvironment _hostingEnvironment;
-        public AdminService(ApplicationContext dbContext, IHttpContextAccessor httpContext, 
+        public AdminService(ApplicationContext dbContext,
             IWebHostEnvironment hostingEnvironment)
         {
             _dbContext = dbContext;
-            _httpContextAccessor = httpContext;
             _hostingEnvironment = hostingEnvironment;
         }
         public async Task<AdminModel> GetUserByIdAsync(int id)
@@ -37,7 +31,7 @@ namespace Dealership.Services
                 user.Login = updateUser.Login;
                 user.Role = updateUser.Role;
 
-                if(updateUser.Password is not null) 
+                if (updateUser.Password is not null)
                 {
                     user.Password = updateUser.Password;
                 }
@@ -84,7 +78,7 @@ namespace Dealership.Services
                 }
 
                 await _dbContext.SaveChangesAsync();
-            }         
+            }
         }
         public async Task<CarModel> GetCarByIdAsync(int idCar)
         {
@@ -94,54 +88,6 @@ namespace Dealership.Services
         {
             return await _dbContext.Orders.AsNoTracking().Where(x => x.Checked == false)
                 .ToListAsync();
-        }
-        private async Task SetDateAuthenticationAsync(int id)
-        {
-            var user = await _dbContext.Admins.FindAsync(id);
-
-            if(user is not null)
-            {            
-                user.DateLastAuth = DateTime.UtcNow;
-                await _dbContext.SaveChangesAsync();
-            }
-        }
-        public bool IsAuthenticatedAsync()
-        {
-            return _httpContextAccessor.HttpContext?.User.Identity?.IsAuthenticated ?? false;
-        }
-        public async Task<bool> AuthenticationAsync(string login, string password)
-        {
-            AdminModel? admin = await _dbContext.Admins.AsNoTracking()
-                .Where(u => u.Login == login && u.Password == password)
-                .FirstOrDefaultAsync();
-
-            if (admin is not null)
-            {
-                var claims = new List<Claim> {
-                    new Claim( "FullName", admin.FullName! ),
-                    new Claim( "ImageUrl", admin.ImageUrl! ),
-                    new Claim( ClaimTypes.Role, admin.Role! ),
-                    new Claim( ClaimTypes.Name, login ),
-                    new Claim( ClaimTypes.NameIdentifier, admin.Id.ToString() )
-                };
-
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
-
-                await _httpContextAccessor!.HttpContext!.SignInAsync(
-                    CookieAuthenticationDefaults.AuthenticationScheme, 
-                    new ClaimsPrincipal(claimsIdentity));
-
-                await SetDateAuthenticationAsync(admin.Id);
-
-                return true;
-            }
-            return false;
-        }
-
-        public async Task LogoutAsync()
-        {
-            await _httpContextAccessor!.HttpContext!.SignOutAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme);
         }
 
         public async Task<List<CarModel>> GetAllCarsAsync()
@@ -163,7 +109,7 @@ namespace Dealership.Services
 
             if (newcar.Image != null && newcar.Image.Length > 0)
             {
-                car.ImageUrl = "/ImagesOfCars/" + 
+                car.ImageUrl = "/ImagesOfCars/" +
                     await SaveImageAsync("ImagesOfCars", newcar.Image);
             }
 
@@ -183,8 +129,7 @@ namespace Dealership.Services
 
             if (newuser.Image != null && newuser.Image.Length > 0)
             {
-                user.ImageUrl = "/ImagesOfAdminsProfiles/" + 
-                    await SaveImageAsync("ImagesOfAdminsProfiles", newuser.Image);
+                user.ImageUrl = "/ImagesOfAdminsProfiles/" + await SaveImageAsync("ImagesOfAdminsProfiles", newuser.Image);
             }
 
             await _dbContext.Admins.AddAsync(user);

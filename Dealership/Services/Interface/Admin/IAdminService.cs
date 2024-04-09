@@ -6,9 +6,6 @@ namespace Dealership.Services.Interface
     public interface IAdminService
     {
         Task<List<OrderModel>> GetAvailableOrderAsync();
-        Task<bool> AuthenticationAsync(string login, string password);
-        bool IsAuthenticatedAsync();
-        Task LogoutAsync();
         Task<List<CarModel>> GetAllCarsAsync();
         public Task CreateCarAsync(ViewCarModel newcar);
         public Task CreateUserAsync(ViewAdminModel newuser);

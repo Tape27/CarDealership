@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj": {}
+    "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\Dealership\\Dealership.csproj": {}
   },
   "projects": {
-    "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj": {
+    "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\Dealership\\Dealership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+        "projectUniqueName": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\Dealership\\Dealership.csproj",
         "projectName": "Dealership",
-        "projectPath": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\Dealership.csproj",
+        "projectPath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\Dealership\\Dealership.csproj",
         "packagesPath": "C:\\Users\\profi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\profi\\Desktop\\Dealership\\Dealership\\obj\\",
+        "outputPath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\Dealership\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\profi\\AppData\\Roaming\\NuGet\\NuGet.Config",

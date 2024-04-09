@@ -12,6 +12,9 @@ namespace Dealership.Controllers
                 case 404:
                     ViewBag.ErrorMessage = "Ошибка 404, такой страницы не существует!";
                     break;
+                default:
+                    ViewBag.ErrorMessage = $"Ошибка {statusCode}";
+                    break;
             }
             return View("ErrorPage");
         }

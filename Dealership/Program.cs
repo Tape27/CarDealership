@@ -1,6 +1,8 @@
 using Dealership.DataContext;
 using Dealership.Services;
+using Dealership.Services.Admin;
 using Dealership.Services.Interface;
+using Dealership.Services.Interface.Admin;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Dealership
@@ -12,17 +14,18 @@ namespace Dealership
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options => {
-        options.Cookie.HttpOnly = true;
-        options.Cookie.Name = "Session";
-        options.LoginPath = "/admin/login";
-        options.AccessDeniedPath = "/admin/accessdenied";
-        });
-            builder.Services.AddHttpContextAccessor();
+                .AddCookie(options => {
+                    options.Cookie.HttpOnly = true;
+                    options.Cookie.Name = "Session";
+                    options.LoginPath = "/admin/login";
+                    options.AccessDeniedPath = "/admin/accessdenied";
+                    });
+                builder.Services.AddHttpContextAccessor();
 
-            builder.Services.AddTransient<IClientApiService, ClientApiService>();
+            builder.Services.AddTransient<IAdminAuthenticationService, AdminAuthorizationService>();
             builder.Services.AddTransient<IAdminApiService, AdminApiService>();
             builder.Services.AddTransient<IAdminService, AdminService>();
+            builder.Services.AddTransient<IClientApiService, ClientApiService>();
             builder.Services.AddTransient<IClientService, ClientService>();
             builder.Services.AddDbContext<ApplicationContext>();
 
