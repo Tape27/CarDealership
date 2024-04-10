@@ -8,9 +8,10 @@ namespace Dealership.DataContext
         public DbSet<CarModel> Cars { get; set; } = null!;
         public DbSet<AdminModel> Admins { get; set; } = null!;
         public DbSet<OrderModel> Orders { get; set; } = null!;
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ApplicationContext(DbContextOptions<ApplicationContext> options)
+            : base(options)
         {
-            optionsBuilder.UseNpgsql("Host=127.0.0.1;Port=5432;Database=CompanyDB;Username=postgres;Password=root");
+            Database.EnsureCreated();
         }
     }
 }
