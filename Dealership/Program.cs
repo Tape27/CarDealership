@@ -4,6 +4,7 @@ using Dealership.Services.Admin;
 using Dealership.Services.Interface;
 using Dealership.Services.Interface.Admin;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.EntityFrameworkCore;
 
 namespace Dealership
 {
@@ -12,6 +13,11 @@ namespace Dealership
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            string connection = builder.Configuration.GetConnectionString("DefaultConnection")!;
+
+            builder.Services.AddDbContext<ApplicationContext>(options =>
+                options.UseNpgsql(connection));
 
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options => {
@@ -27,7 +33,6 @@ namespace Dealership
             builder.Services.AddTransient<IAdminService, AdminService>();
             builder.Services.AddTransient<IClientApiService, ClientApiService>();
             builder.Services.AddTransient<IClientService, ClientService>();
-            builder.Services.AddDbContext<ApplicationContext>();
 
             builder.Services.AddControllersWithViews();
             builder.Services.AddControllers();
