@@ -1,0 +1,15 @@
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\bin\Debug\net8.0\CarDealership.Application.deps.json
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\bin\Debug\net8.0\CarDealership.Application.dll
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\bin\Debug\net8.0\CarDealership.Application.pdb
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\bin\Debug\net8.0\CarDealership.Domain.dll
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\bin\Debug\net8.0\CarDealership.Domain.pdb
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.csproj.AssemblyReference.cache
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.AssemblyInfoInputs.cache
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.AssemblyInfo.cs
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.csproj.CoreCompileInputs.cache
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDeale.C82AD832.Up2Date
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.dll
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\refint\CarDealership.Application.dll
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\CarDealership.Application.pdb
+C:\Users\profi\Desktop\CarDealership\Src\CarDealership.Application\obj\Debug\net8.0\ref\CarDealership.Application.dll

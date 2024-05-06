@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/Admin/Admin_Header.css" />
+    <link rel="stylesheet" href="/css/Admin/Admin_CreateTables.css" />
+    <script src="/js/Admin/ValidateNewUser.js"></script>
+    <title>Добавление нового пользователя</title>
+    <style>
+        .info {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        @await Html.PartialAsync("_AdmHeader")
+    </div>
+    <div id="main">
+        @{
+            var error = ViewData["Error"] as string;
+
+            <div class="info">
+                @if (!string.IsNullOrEmpty(error))
+                {
+                    var color = error == "Пользователь успешно добавлено в базу данных" ? "green" : "red";
+                    <p style="color: @color">@error</p>
+                }
+            </div>
+
+        }
+        <form id="createUserForm" action="/admin/createadmin" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label for="Image">Фото: (Только .jpeg/jpg)</label>
+                <input type="file" id="image" name="image" accept="image/jpeg">
+            </div>
+            <div class="form-group">
+                <label for="FullName">Полное имя:</label>
+                <input type="text" id="FullName" name="FullName" required>
+                <span style="color:red" class="text-danger" id="FullNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Login">Логин:</label>
+                <input type="text" id="Login" name="Login" required>
+                <span style="color:red" class="text-danger" id="LoginError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Password">Пароль:</label>
+                <input type="text" id="Password" name="Password" required>
+                <span style="color:red" class="text-danger" id="PasswordError"></span>
+            </div>
+            <div class="form-group">
+                <label for="Role">В наличии:</label>
+                <select id="Role" name="Role" required>
+                    <option value="user">Менеджер</option>
+                    <option value="admin">Директор</option>
+                </select>
+            </div>
+            <button type="submit">Добавить пользователя в базу данных</button>
+        </form>
+    </div>
+    <div id="footer"></div>
+    <script>
+    </script>
+</body>
+</html>
