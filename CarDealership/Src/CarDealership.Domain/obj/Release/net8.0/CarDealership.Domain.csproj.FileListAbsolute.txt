@@ -1,0 +1,13 @@
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\bin\Release\net8.0\CarDealership.Domain.deps.json
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\bin\Release\net8.0\CarDealership.Domain.dll
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\bin\Release\net8.0\CarDealership.Domain.pdb
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.csproj.AssemblyReference.cache
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.AssemblyInfoInputs.cache
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.AssemblyInfo.cs
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.csproj.CoreCompileInputs.cache
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.sourcelink.json
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.dll
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\refint\CarDealership.Domain.dll
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\CarDealership.Domain.pdb
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Domain\obj\Release\net8.0\ref\CarDealership.Domain.dll

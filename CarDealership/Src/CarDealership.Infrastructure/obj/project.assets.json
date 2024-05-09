@@ -2585,11 +2585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Infrastructure\\CarDealership.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Infrastructure\\CarDealership.Infrastructure.csproj",
       "projectName": "CarDealership.Infrastructure",
-      "projectPath": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Infrastructure\\CarDealership.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Infrastructure\\CarDealership.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\profi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\profi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2606,8 +2606,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Application\\CarDealership.Application.csproj": {
-              "projectPath": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Application\\CarDealership.Application.csproj"
+            "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Application\\CarDealership.Application.csproj": {
+              "projectPath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Application\\CarDealership.Application.csproj"
             }
           }
         }

@@ -4,6 +4,7 @@ using CarDealership.Infrastructure;
 using System.Reflection;
 using CarDealership.Application.Models.Dto.CarDto;
 using CarDealership.Web.Middleware;
+using Microsoft.Extensions.Configuration;
 
 namespace CarDealership.Web
 {
@@ -16,8 +17,8 @@ namespace CarDealership.Web
             builder.Services.AddAutoMapper(config =>
             {
                 config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
-                config.AddProfile(new AssemblyMappingProfile(typeof(CarDto).Assembly));
             });
+
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddApplication();
             builder.Services.AddInfrastructure(builder.Configuration);

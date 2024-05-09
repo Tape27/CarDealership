@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4tKbPOKHiY1mv6NS7yPbiBcPMM+Ya+gSk9CZVrVJDuEF4gHn7Cx7XR5DW4EIiPJd5XThsWNge8dHBF4sV1WRMA==",
+  "dgSpecHash": "+n6vXy8WpHQw4ag9Rlot1sr3JRiBgHlEFfS/ajnNjMIFyIT94+H4DIuijUxSy/dXxjlLYWAJWP86qjRyJtVnqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Web\\CarDealership.Web.csproj",
+  "projectFilePath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\CarDealership.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\profi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\profi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\profi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\mime-detective\\23.10.1\\mime-detective.23.10.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",

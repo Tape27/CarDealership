@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r0fDni8g4G7Eq4rIcuhzHu5QYiebmz9PRsGPmKChtYXFsba60WrMyBXh2r8QfQrTwnLKgMO3nxwfG0hpagV7uA==",
+  "dgSpecHash": "ILGZJiKDo76gm10cayWbBKsnxy8q9RpXGSOBiUzJIXWj/NI+ry9yiDGvj83T99SYL+2C0/Y4YyAW0qIxPJLcSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Infrastructure\\CarDealership.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Infrastructure\\CarDealership.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\profi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

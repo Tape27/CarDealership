@@ -1,5 +1,4 @@
 ﻿using CarDealership.Domain.Models;
-using CarDealership.Infrastructure.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarDealership.Infrastructure
@@ -12,13 +11,9 @@ namespace CarDealership.Infrastructure
         public DbSet<AdminModel> Admins { get; set; }
 
         public CarDealershipDbContext(DbContextOptions<CarDealershipDbContext> options)
-            : base(options) { }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+            : base(options)
         {
-            modelBuilder.ApplyConfiguration(new CarConfiguration());
-            base.OnModelCreating(modelBuilder);
+            Database.EnsureCreated();
         }
-
     }
 }
