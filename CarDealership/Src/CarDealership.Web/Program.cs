@@ -2,9 +2,7 @@ using CarDealership.Application;
 using CarDealership.Application.Common.Mapping;
 using CarDealership.Infrastructure;
 using System.Reflection;
-using CarDealership.Application.Models.Dto.CarDto;
 using CarDealership.Web.Middleware;
-using Microsoft.Extensions.Configuration;
 
 namespace CarDealership.Web
 {
@@ -18,6 +16,8 @@ namespace CarDealership.Web
             {
                 config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
             });
+
+            Console.WriteLine("Connection: " + builder.Configuration["CarDealershipDbContext"]);
 
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddApplication();
