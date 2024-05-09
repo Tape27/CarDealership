@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P3Yrea1zXKPewyhtf1zfXzD+H9ca1TKmY353UEapYf+ZRCC2DV7fq5RE/4TwXIDgFNGYLw1VS9arC5YmeGG0hw==",
+  "dgSpecHash": "UNGagg2shGtZJ7uv1QxWpi67rXeAeUNruUu+aKzg5KQhC4C5xMlq7M6/M+ClnMCpvOX2BoP00vWmpr6lOWHegw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\profi\\Desktop\\CarDealership\\Src\\CarDealership.Application\\CarDealership.Application.csproj",
+  "projectFilePath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Application\\CarDealership.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\profi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

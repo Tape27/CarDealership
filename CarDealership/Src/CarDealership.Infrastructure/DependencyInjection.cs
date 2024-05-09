@@ -16,9 +16,11 @@ namespace CarDealership.Infrastructure
             IConfiguration configuration)
         {
             string connectionString = configuration["CarDealershipDbContext"]!;
+
             services.AddDbContext<CarDealershipDbContext>(options =>
             {
-                options.UseNpgsql(connectionString);
+                options.UseNpgsql(connectionString, 
+                    b => b.MigrationsAssembly("CarDealership.Infrastructure"));
             });
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

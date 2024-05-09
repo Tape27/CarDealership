@@ -4,6 +4,7 @@ using FluentValidation;
 using CarDealership.Application.Abstractions;
 using CarDealership.Application.Services;
 using CarDealership.Application.Validators;
+using CarDealership.Application.Common.Mapping;
 
 namespace CarDealership.Application
 {
@@ -17,7 +18,12 @@ namespace CarDealership.Application
             services.AddScoped<IUrlImagesOfCarsService, UrlImagesOfCarsService>();
             services.AddScoped<ICarService, CarService>();
 
-            services.AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly() });
+            services.AddAutoMapper(config =>
+            {
+                config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
+            });
+
+            services.AddValidatorsFromAssemblies([Assembly.GetExecutingAssembly()]);
 
             return services;
         }
