@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+n6vXy8WpHQw4ag9Rlot1sr3JRiBgHlEFfS/ajnNjMIFyIT94+H4DIuijUxSy/dXxjlLYWAJWP86qjRyJtVnqg==",
+  "dgSpecHash": "t0hQU/AV7wKeXIXX6Ke42vd+9+3K1uidwZXaDhhzl6b2h1anVP9lEdozZiZTAPtEoPB/YyONvC93N8nMUnAxvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\CarDealership.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\profi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\profi\\.nuget\\packages\\awssdk.core\\3.7.303.28\\awssdk.core.3.7.303.28.nupkg.sha512",
+    "C:\\Users\\profi\\.nuget\\packages\\awssdk.s3\\3.7.307.30\\awssdk.s3.3.7.307.30.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\profi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

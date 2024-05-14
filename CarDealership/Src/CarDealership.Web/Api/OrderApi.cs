@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CarDealership.Web.Api
 {
-    [Route("order/")]
+    [Route("api/order/")]
     [ApiController]
     public class OrderApi :  ControllerBase
     {
@@ -31,7 +31,7 @@ namespace CarDealership.Web.Api
         }
 
         [Authorize]
-        [HttpPost("completed/{orderId:int}")]
+        [HttpPut("completed/{orderId:int}")]
         public async Task<IActionResult> CompletedOrder(int orderId)
         {
             await _orderService.SetCompletedOrder(orderId);

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CarDealership.Web.Api
 {
-    [Route("car/")]
+    [Route("api/car/")]
     [ApiController]
     public class CarApi : ControllerBase
     {

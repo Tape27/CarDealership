@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CarDealership.Web.Api
 {
     [Authorize]
-    [Route("admin/")]
+    [Route("api/admin/")]
     [ApiController]
     public class AdminApi : ControllerBase
     {

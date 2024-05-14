@@ -40,6 +40,15 @@ namespace CarDealership.Application.Services
             _imageValidator = imageValidator;
         }
 
+        public async Task IncrementClosedOrderByCookies()
+        {
+            int? id = _cookiesProvider.GetIdByCookies();
+
+            if (id != null)
+            {
+                await _adminRepository.IncrementCompletedOrdersById(id.Value);
+            }
+        }
         public async Task<AdminClaimDto> GetAdminForClaim(int id)
         {
             var admin = await _adminRepository.GetById(id);
@@ -55,7 +64,7 @@ namespace CarDealership.Application.Services
                 throw new ValidationException(validationResult.Errors);
             }
         }
-
+        
         private async Task<bool> IsAdminLoginUnique(string login)
         {
             return await _adminRepository.IsFreeLogin(login);
@@ -97,7 +106,7 @@ namespace CarDealership.Application.Services
 
                 if (!string.IsNullOrEmpty(oldAdmin.ImageUrl))
                 {
-                    _adminRepository.DeleteImage(oldAdmin.ImageUrl);
+                    await _adminRepository.DeleteImage(oldAdmin.ImageUrl);
                 }
 
                 adminModel.ImageUrl = await _adminRepository.SaveImage(updAdmin.Image);
@@ -206,6 +215,8 @@ namespace CarDealership.Application.Services
 
             await _cookiesProvider.Set(adminClaimDto);
 
+            await _adminRepository.SetDateLastAuthById(adminClaimDto.Id);
+
             return true;
         }
 
@@ -221,7 +232,7 @@ namespace CarDealership.Application.Services
 
             if (!string.IsNullOrEmpty(url))
             {
-                _adminRepository.DeleteImage(url);
+                await _adminRepository.DeleteImage(url);
             }
 
             await _adminRepository.Delete(id);

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const userId = btn.dataset.userId;
 
                
-                const response = await fetch(`/admin/api/deleteuser/${userId}`, {
+                const response = await fetch(`/api/admin/delete/${userId}`, {
                     method: 'DELETE'
                 });
 

@@ -93,9 +93,8 @@ namespace CarDealership.Web.Controllers
         public async Task<IActionResult> CreateCar([FromForm] CreateCarDto newCar)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest();
-            }
+            
             await _carService.CreateCar(newCar);
 
             return View();
@@ -118,16 +117,12 @@ namespace CarDealership.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditCar([FromForm] UpdateCarDto edCar)
         {
-            if (ModelState.IsValid)
-            {
-                await _carService.UpdateCar(edCar);
-                ViewData["Error"] = "Информация об автомобиле успешно обновлена";
-            }
-            else
-            {
-                ViewData["Error"] = "Указанные вами данные не валидны";
-            }
-            return await EditCar(edCar.Id);
+            if (!ModelState.IsValid)
+                return BadRequest();
+                
+            await _carService.UpdateCar(edCar);
+            
+            return RedirectToAction("ViewCars","Admin");
         }
 
         [Authorize(Roles = "admin")]
@@ -143,9 +138,8 @@ namespace CarDealership.Web.Controllers
         public async Task<IActionResult> CreateAdmin([FromForm] CreateAdminDto newAdmin)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest();
-            }
+            
 
             await _adminService.Register(newAdmin);
 
@@ -172,17 +166,12 @@ namespace CarDealership.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditAdmin([FromForm] UpdateAdminDto updAdmin)
         {
-            if (ModelState.IsValid)
-            {
-                await _adminService.Update(updAdmin);
-                ViewData["Error"] = "Информация об пользователе успешно обновлена";
-            }
-            else
-            {
-                ViewData["Error"] = "Указанные вами данные не валидны";
-            }
-            //RedirectToAction("ViewAdmins", "Admin");
-            return await EditAdmin(updAdmin.Id); 
+            if (!ModelState.IsValid)
+                return BadRequest();
+            
+            await _adminService.Update(updAdmin);
+            
+            return RedirectToAction("ViewAdmins", "Admin");
         }
         
         [Authorize]

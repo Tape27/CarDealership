@@ -1,6 +1,6 @@
-﻿using CarDealership.Domain.Abstractions;
+﻿using Amazon.S3.Model;
+using CarDealership.Domain.Abstractions;
 using CarDealership.Domain.Models;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,14 +8,36 @@ namespace CarDealership.Infrastructure.Repository
 {
     public class AdminRepository : IAdminRepository
     {
-        
+        private readonly YandexCloudS3Context _cloudS3Context;
         private readonly CarDealershipDbContext _context;
-        private readonly IWebHostEnvironment _hostingEnvironment;
-        public AdminRepository(CarDealershipDbContext context,
-            IWebHostEnvironment hostingEnvironment)
+
+        public AdminRepository(YandexCloudS3Context cloudS3Context,
+            CarDealershipDbContext context)
         {
+            _cloudS3Context = cloudS3Context;
             _context = context;
-            _hostingEnvironment = hostingEnvironment;
+        }
+
+        public async Task SetDateLastAuthById(int id)
+        {
+            var model = await _context.Admins.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (model != null)
+            {
+                model.DateLastAuth = DateTime.UtcNow;
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task IncrementCompletedOrdersById(int id)
+        {
+            var model = await _context.Admins.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (model != null)
+            {
+                model.CountClosedOrders += 1;
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<string?> GetImageUrlById(int id)
@@ -30,6 +52,7 @@ namespace CarDealership.Infrastructure.Repository
             int count = await _context.Admins.Where(x => x.Login == login).CountAsync();
             return count == 0;
         }
+
         public async Task Delete(int id)
         {
             await _context.Admins.Where(x => x.Id == id)
@@ -57,18 +80,28 @@ namespace CarDealership.Infrastructure.Repository
             await _context.AddAsync(admin);
             await _context.SaveChangesAsync();
         }
+
         public async Task<string> SaveImage(IFormFile image)
         {
-            string directory = @"\ImagesOfAdminsProfiles\";
-            string fileName = Guid.NewGuid() + Path.GetExtension(image.FileName);
-            string filePath = Path.Combine(_hostingEnvironment.WebRootPath + directory + fileName);
 
-            await using (var fileStream = new FileStream(filePath, FileMode.Create))
+            string fileName = Guid.NewGuid() + Path.GetExtension(image.FileName);
+            string key = _cloudS3Context.AdminKey + fileName;
+
+            var request = new PutObjectRequest
             {
-                await image.CopyToAsync(fileStream);
+                BucketName = _cloudS3Context.Bucket,
+                Key = key,
+                InputStream = image.OpenReadStream()
+            };
+            var response = await _cloudS3Context.S3Client.PutObjectAsync(request);
+
+            if (response.HttpStatusCode == System.Net.HttpStatusCode.OK ||
+                response.HttpStatusCode == System.Net.HttpStatusCode.NoContent)
+            {
+                return $"{_cloudS3Context.ServiceUrl}/{_cloudS3Context.Bucket}/{key}";
             }
 
-            return directory + fileName;
+            return string.Empty;
         }
 
         public async Task<AdminModel?> GetByLogin(string login)
@@ -81,13 +114,28 @@ namespace CarDealership.Infrastructure.Repository
         public async Task<AdminModel?> GetById(int id)
         {
             return await _context.Admins.AsNoTracking()
-                 .Where(x => x.Id == id)
-                 .FirstOrDefaultAsync();
+                .Where(x => x.Id == id)
+                .FirstOrDefaultAsync();
         }
 
-        public void DeleteImage(string fileName)
+        public async Task DeleteImage(string url)
         {
-            File.Delete(_hostingEnvironment.WebRootPath + fileName);
+
+            string key = _cloudS3Context.AdminKey + YandexCloudHelper.GetFilenameFromUrl(url);
+
+            var request = new DeleteObjectRequest
+            {
+                BucketName = _cloudS3Context.Bucket,
+                Key = key
+            };
+
+            var response = await _cloudS3Context.S3Client.DeleteObjectAsync(request);
+
+            if (response.HttpStatusCode == System.Net.HttpStatusCode.OK ||
+                response.HttpStatusCode == System.Net.HttpStatusCode.NoContent)
+            {
+                return; //in progress
+            }
         }
     }
 }

@@ -23,6 +23,14 @@ namespace CarDealership.Infrastructure
                     b => b.MigrationsAssembly("CarDealership.Infrastructure"));
             });
 
+            services.AddSingleton<YandexCloudS3Context>(provider => new YandexCloudS3Context(
+                configuration["YandexCloud:AccessKey"],
+                configuration["YandexCloud:SecretKey"],
+                configuration["YandexCloud:ServiceUrl"],
+                configuration["YandexCloud:Bucket"],
+                configuration["YandexCloud:AdminKey"],
+                configuration["YandexCloud:CarKey"]));
+
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
                 {
@@ -30,8 +38,8 @@ namespace CarDealership.Infrastructure
                     options.LoginPath = "/admin/login";
                     options.AccessDeniedPath = "/admin/accessdenied";
                     options.Cookie.HttpOnly = true;
-                    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-                    options.Cookie.SameSite = SameSiteMode.Strict;
+                    //options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                    //options.Cookie.SameSite = SameSiteMode.Strict;
                 });
 
             services.AddScoped<IPasswordHasher, PasswordHasher>();

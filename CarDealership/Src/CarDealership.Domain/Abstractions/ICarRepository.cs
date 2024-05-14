@@ -11,7 +11,7 @@ namespace CarDealership.Domain.Abstractions
         Task<CarModel?> GetById(int carId);
         Task<string> SaveMainImage(IFormFile image);
         Task Update(CarModel model);
-        void DeleteMainImage(string fileName);
+        Task DeleteMainImage(string url);
         Task Delete(int id);
         Task<string?> GetMainImageUrlById(int id);
     }

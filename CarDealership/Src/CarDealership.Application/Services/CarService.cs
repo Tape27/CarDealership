@@ -107,6 +107,7 @@ namespace CarDealership.Application.Services
             {
                 await _urlImagesOfCarsService.SaveImagesOfCarByCarId(carModel.Id, newCar.OtherImages);
             }
+
         }
 
         public async Task UpdateCar(UpdateCarDto updCar)
@@ -132,7 +133,7 @@ namespace CarDealership.Application.Services
                     throw new ValidationException("Wrong file");
                 }
 
-                _carRepository.DeleteMainImage(car.MainUrlImage);
+                await _carRepository.DeleteMainImage(car.MainUrlImage);
 
                 car.MainUrlImage = await _carRepository.SaveMainImage(updCar.Image);
             }
@@ -149,14 +150,18 @@ namespace CarDealership.Application.Services
 
         public async Task DeleteCar(int id)
         {
+            Console.WriteLine(id);
             string? url = await _carRepository.GetMainImageUrlById(id);
 
             if (!string.IsNullOrWhiteSpace(url))
             {
-                _carRepository.DeleteMainImage(url);
+               await _carRepository.DeleteMainImage(url);
             }
 
+            await _urlImagesOfCarsService.DeleteImagesAndRowsByCarId(id);
+
             await _carRepository.Delete(id);
+            
         }
 
     }

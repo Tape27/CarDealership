@@ -23,26 +23,5 @@ namespace CarDealership.Web.Controllers
         {
             return View("CarDetails", await _carService.GetCarById(id));
         }
-
-        //public async Task<IActionResult> CreateCar([FromBody] CarRequest newCar)
-        //{
-        //    var (car, error) = Car.Create(
-        //        0,
-        //        newCar.Name,
-        //        newCar.Description,
-        //        newCar.Year,
-        //        newCar.Power,
-        //        newCar.Price,
-        //        newCar.Exist);
-
-        //    if (!string.IsNullOrEmpty(error))
-        //    {
-        //        return BadRequest(error);
-        //    }
-
-        //    int carId = await _carService.CreateCar(car);
-
-        //    return View("");
-        //}
     }
 }

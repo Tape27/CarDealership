@@ -1,38 +1,54 @@
 ﻿.slider-container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    width: 75vw; /* Установите фиксированную ширину в 50% от ширины экрана */
+    height: 75vh; /* Установите высоту в 50% от высоты экрана */
+    overflow: hidden;
 }
 
 .car-images-slider {
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: center;
 }
 
 .slide {
     width: 100%;
     height: 100%;
     display: none;
-    object-fit: cover;
 }
 
+    .slide img {
+        width: 100%; /* Заполните контейнер по ширине */
+        height: auto;
+        object-fit: cover; /* Центрируйте фотографии по вертикали */
+        pointer-events: none;
+    }
+
     .slide.active {
-        display: block;
+        display: flex;
     }
 
 .slider-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
+    font-size: 16px;
     padding: 10px;
     cursor: pointer;
     background: transparent;
     border: none;
     color: white;
     z-index: 1;
+    border: 1px solid white;
+    background-color: black;
+    transition: color 0.3s linear, border 0.3s linear;
 }
+    .slider-btn:hover {
+        color: #fcea49;
+        border: 1px solid #fcea49;
+    }
 
 .prev-btn {
     left: 20px;
@@ -42,12 +58,25 @@
     right: 20px;
 }
 
+.car-description {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 35px;
+}
+
+.car-price {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 36px;
+    font-weight: 100;
+}
 
 .btn-order {
-    justify-content: center;
     height: 200px;
     width: 200px;
-    margin-left: 45%;
     padding: 10px 20px;
     background-color: #1e1d1f;
     color: #fff;
@@ -56,6 +85,18 @@
     border: 8px solid #fff;
     border-radius: 50%;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color: #fff;
+    color: #1e1d1f;
+}
+
+.btn-order-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 #overlay {

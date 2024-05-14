@@ -47,7 +47,7 @@ const validateAndSubmitForm = (event) => {
         const formData = new FormData(createOrderForm);
         console.log(formData);
 
-        fetch('/api/createorder', {
+        fetch('/api/order/create', {
             method: 'POST',
             body: formData
         })

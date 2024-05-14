@@ -17,8 +17,6 @@ namespace CarDealership.Web
                 config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
             });
 
-            Console.WriteLine("Connection: " + builder.Configuration["CarDealershipDbContext"]);
-
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddApplication();
             builder.Services.AddInfrastructure(builder.Configuration);
@@ -31,9 +29,7 @@ namespace CarDealership.Web
             app.UseRouting();
 
             app.UseAuthentication();
-
             app.UseUpdateAdminCookies();
-
             app.UseAuthorization();
             app.UseAntiforgery();
             app.UseHttpsRedirection();

@@ -229,3 +229,5 @@ C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.We
 C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Web\obj\Debug\net8.0\CarDealership.Web.pdb
 C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Web\obj\Debug\net8.0\CarDealership.Web.genruntimeconfig.cache
 C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Web\obj\Debug\net8.0\ref\CarDealership.Web.dll
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Web\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\profi\Documents\GitHub\CarDealership\CarDealership\Src\CarDealership.Web\bin\Debug\net8.0\AWSSDK.S3.dll

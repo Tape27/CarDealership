@@ -1,6 +1,6 @@
-﻿using CarDealership.Domain.Abstractions;
+﻿using Amazon.S3.Model;
+using CarDealership.Domain.Abstractions;
 using CarDealership.Domain.Models;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,12 +9,12 @@ namespace CarDealership.Infrastructure.Repository
     public class CarRepository : ICarRepository
     {
         private readonly CarDealershipDbContext _context;
-        private readonly IWebHostEnvironment _hostingEnvironment;
+        private readonly YandexCloudS3Context _cloudS3Context;
         public CarRepository(CarDealershipDbContext context,
-            IWebHostEnvironment hostingEnvironment)
+            YandexCloudS3Context cloudS3Context)
         {
             _context = context;
-            _hostingEnvironment = hostingEnvironment;
+            _cloudS3Context = cloudS3Context;
         }
 
         public async Task<string?> GetMainImageUrlById(int id)
@@ -29,9 +29,24 @@ namespace CarDealership.Infrastructure.Repository
             await _context.Cars.Where(x => x.Id == id)
                 .ExecuteDeleteAsync();
         }
-        public void DeleteMainImage(string fileName)
+        public async Task DeleteMainImage(string url)
         {
-            File.Delete(_hostingEnvironment.WebRootPath + fileName);
+
+            string key = _cloudS3Context.CarKey + YandexCloudHelper.GetFilenameFromUrl(url);
+
+            var request = new DeleteObjectRequest
+            {
+                BucketName = _cloudS3Context.Bucket,
+                Key = key
+            };
+
+            var response = await _cloudS3Context.S3Client.DeleteObjectAsync(request);
+
+            if (response.HttpStatusCode == System.Net.HttpStatusCode.OK ||
+                response.HttpStatusCode == System.Net.HttpStatusCode.NoContent)
+            {
+                return; //in progress
+            }
         }
 
         public async Task Update(CarModel model)
@@ -49,16 +64,24 @@ namespace CarDealership.Infrastructure.Repository
 
         public async Task<string> SaveMainImage(IFormFile image)
         {
-            string directory = @"\ImagesOfCars\";
             string fileName = Guid.NewGuid() + Path.GetExtension(image.FileName);
-            string filePath = Path.Combine(_hostingEnvironment.WebRootPath + directory + fileName);
+            string key = _cloudS3Context.CarKey + fileName;
 
-            await using (var fileStream = new FileStream(filePath, FileMode.Create))
+            var request = new PutObjectRequest
             {
-                await image.CopyToAsync(fileStream);
+                BucketName = _cloudS3Context.Bucket,
+                Key = key,
+                InputStream = image.OpenReadStream()
+            };
+            var response = await _cloudS3Context.S3Client.PutObjectAsync(request);
+
+            if (response.HttpStatusCode == System.Net.HttpStatusCode.OK ||
+                response.HttpStatusCode == System.Net.HttpStatusCode.NoContent)
+            {
+                return $"{_cloudS3Context.ServiceUrl}/{_cloudS3Context.Bucket}/{key}";
             }
 
-            return directory + fileName;
+            return string.Empty;
         }
 
         public async Task Create(CarModel car)

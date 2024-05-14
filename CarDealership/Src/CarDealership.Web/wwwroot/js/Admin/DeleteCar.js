@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const carId = btn.dataset.carId;
 
                 // Отправить запрос на удаление автомобиля с помощью fetch API
-                const response = await fetch(`/admin/api/deletecar/${carId}`, {
+                const response = await fetch(`/api/car/delete/${carId}`, {
                     method: 'DELETE'
                 });
 

@@ -14,5 +14,6 @@ namespace CarDealership.Application.Abstractions
         Task Logout();
         Task DeleteAdmin(int id);
         Task<AdminClaimDto> GetAdminForClaim(int id);
+        Task IncrementClosedOrderByCookies();
     }
 }

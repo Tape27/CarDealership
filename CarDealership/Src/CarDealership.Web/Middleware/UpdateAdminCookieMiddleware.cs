@@ -17,12 +17,9 @@ namespace CarDealership.Web.Middleware
             ICookiesProvider cookiesProvider,
             IHttpContextAccessor httpContextAccessor)
         {
-            Console.WriteLine(context.Request.Cookies["session_id"]);
-            Console.WriteLine(context.User.FindFirstValue("FullName"));
             if (httpContextAccessor.HttpContext.User.Identity.IsAuthenticated &&
                 context.User.FindFirstValue("Subject") != null)
             {
-                Console.WriteLine(2);
                 var actualAdmin = await adminService.GetAdminForClaim(int.Parse(context.User.FindFirstValue("Subject")!));
 
                 var currentAdmin = new AdminClaimDto
@@ -36,7 +33,6 @@ namespace CarDealership.Web.Middleware
 
                 if (!currentAdmin.Equals(actualAdmin))
                 {
-                    Console.WriteLine(3);
                     await cookiesProvider.Set(actualAdmin);
                 }
             }

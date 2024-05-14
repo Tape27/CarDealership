@@ -22,15 +22,24 @@ namespace CarDealership.Application.Services
             _imageValidator = imageValidator;
         }
 
+        public async Task DeleteImagesAndRowsByCarId(int id)
+        {
+            await _imagesOfCarsRepository.DeleteAllRowsByCarId(id);
+
+            var urls = await _imagesOfCarsRepository.GetByCarId(id);
+
+            if (urls != null && urls.Any())
+            {
+                await _imagesOfCarsRepository.DeleteAllImagesByUrls(urls.Select(x => x.Url));
+            }
+        }
         public async Task SaveImagesOfCarByCarId(int carId, IFormFile[] images)
         {
             foreach (var image in images)
             {
-                bool valid = await _imageValidator.IsValidJpegFile(image);
-
-                if (!valid)
+                if (!await _imageValidator.IsValidJpegFile(image))
                 {
-                    throw new ValidationException("Incorrect image file");
+                    throw new ValidationException("Incorrect image file " + image.FileName);
                 }
             }
 
@@ -46,7 +55,6 @@ namespace CarDealership.Application.Services
 
                 await _imagesOfCarsRepository.Create(imageModel);
             }
-            
         }
 
         public async Task<IEnumerable<UrlImagesDto?>> GetImagesByCarId(int carId)

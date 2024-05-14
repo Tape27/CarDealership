@@ -3,17 +3,41 @@
     margin: 0;
     font-family: "Inter", sans-serif;
 }
+
 #header {
     background-color: #121212;
     height: 15vh;
     margin: 0;
 }
+
 .header-line {
     padding-top: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
+}
+
+.menu-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s linear;
+    margin-left: 20px;
+}
+
+    .menu-btn:hover {
+        color: #fcea49;
+    }
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav-item {
@@ -21,8 +45,8 @@
     text-decoration: none;
     font-weight: 200;
     font-size: 20px;
-    margin-right: 45px;
-    margin-left: 45px;
+    margin: 0 20px;
+    flex: 1 1 auto;
     transition: color 0.3s linear;
 }
 
@@ -37,7 +61,7 @@
 }
 
 .number {
-    margin-bottom: 10px; /* Добавляем отступ снизу для .number */
+    margin-bottom: 10px;
 }
 
 .phone-text {
@@ -46,19 +70,36 @@
     font-weight: 200;
     color: #fff;
     padding-left: 40px;
-    margin: 0; /* Убираем отступы */
+    margin: 0;
 }
 
 .num {
-    margin-top: 50px;
     text-align: center;
     text-decoration: none;
     color: #fff;
     font-weight: 200;
     transition: color 0.3s linear;
-    margin: 0; /* Убираем отступы */
+    margin: 0;
 }
 
     .num:hover {
         color: #fcea49;
     }
+
+@media screen and (max-width: 916px) {
+    .menu-btn {
+        display: block;
+        order: -1;   
+    }
+        .menu-btn .fas {
+            font-size: 30px;
+        }
+
+    .nav {
+        display: none;
+    }
+
+    .phone {
+        order: -1;
+    }
+}

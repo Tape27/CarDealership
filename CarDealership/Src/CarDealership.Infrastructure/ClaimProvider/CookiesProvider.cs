@@ -16,6 +16,14 @@ namespace CarDealership.Infrastructure.ClaimProvider
             _httpContextAccessor = httpContextAccessor;
         }
 
+        public int? GetIdByCookies()
+        {
+            if (_httpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+            {
+                return int.Parse(_httpContextAccessor.HttpContext.User.FindFirstValue("Subject"));
+            }
+            return null;
+        }
         public async Task Set(AdminClaimDto model)
         {
             var claims = new List<Claim> {

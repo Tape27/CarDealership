@@ -1,8 +1,8 @@
 ﻿#main {
     background-color: #1e1d1f;
-    min-height: calc(100vh - 150px - 60px); /* Вычисляем минимальную высоту блока #main, вычитая высоту header и footer */
-    padding-bottom: 60px; /* Добавляем отступ снизу для footer */
-    box-sizing: border-box; /* Учитываем отступы при вычислении высоты блока */
+    min-height: calc(100vh - 150px - 60px);
+    padding-bottom: 60px;
+    box-sizing: border-box;
 }
 
 
@@ -11,7 +11,7 @@
     font-size: 50px;
     font-weight: 300;
     text-align: center;
-    margin: 0; /* Убираем отступы */
+    margin: 0;
 }
 
 a {

@@ -13,13 +13,16 @@ namespace CarDealership.Application.Services
         private readonly IValidator<OrderModel> _orderValidator;
         private readonly IOrderRepository _orderRepository;
         private readonly IMapper _mapper;
+        private readonly IAdminService _adminService;
         public OrderService(IOrderRepository orderRepository, 
             IValidator<OrderModel> orderValidator,
-            IMapper mapper)
+            IMapper mapper,
+            IAdminService adminService)
         {
             _orderRepository = orderRepository;
             _orderValidator = orderValidator;
             _mapper = mapper;
+            _adminService = adminService;
         }
 
         public async Task<int> GetCountUncompletedOrders()
@@ -30,6 +33,8 @@ namespace CarDealership.Application.Services
         public async Task SetCompletedOrder(int id)
         {
             await _orderRepository.SetCompleted(id);
+
+            await _adminService.IncrementClosedOrderByCookies();
         }
         public async Task CreateOrder(CreateOrderDto request)
         {

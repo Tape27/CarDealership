@@ -7,6 +7,6 @@ namespace CarDealership.Application.Abstractions
     {
         Task SaveImagesOfCarByCarId(int carId, IFormFile[] images);
         Task<IEnumerable<UrlImagesDto?>> GetImagesByCarId(int carId);
-
+        Task DeleteImagesAndRowsByCarId(int id);
     }
 }

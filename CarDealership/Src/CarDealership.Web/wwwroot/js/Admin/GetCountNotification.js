@@ -1,5 +1,5 @@
-function getNotificationCount() {
-    fetch('/admin/api/CountNotification')
+﻿function getNotificationCount() {
+    fetch('/api/order/count/uncompleted/')
         .then(response => response.json())
         .then(count => {
             var badge = document.querySelector('.notification .badge');

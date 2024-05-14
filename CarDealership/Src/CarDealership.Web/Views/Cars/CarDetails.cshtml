@@ -3,15 +3,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <script src="/js/Client/slide.js" defer></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon1.ico" />
     <link rel="stylesheet" href="/css/Client/Client_Main.css">
-    <link rel="stylesheet" href="/css/Client/Client_Header.css">
-    <link rel="stylesheet" href="/css/Client/Client_Footer.css">
     <link rel="stylesheet" href="/css/Client/Client_CarDetails.css">
+    <script src="/js/Client/slide.js" defer></script>
     <script src="/js/Client/SendOrder.js" defer></script>
-    <title>@Html.Display("Name")</title>
+    <title>@Model.Car.Name</title>
 </head>
 <body>
     <header id="header">
@@ -22,64 +19,57 @@
 
             <h1 style="margin-top: 30px; font-size: 48px; font-weight: 300;">@Model.Car.Name</h1>
 
-            <div style="width: 1119px; height: 600px; overflow: hidden;">
-                <div class="slider-container">
-                    <div class="car-images-slider">
-                        <div class="slide active">
-                            <img src="@Model.Car.MainUrlImage" style="width: 100%; height: 100%; object-fit: cover;" />
-                        </div>
-                        @foreach (var url in Model.UrlImages.Select(x => x.Url))
-                        {
-                            <div class="slide">
-                                <img src="@url" style="width: 100%; height: 100%; object-fit: cover;" />
-                            </div>
-                        }
+            <div class="slider-container">
+                <div class="car-images-slider">
+                    <div class="slide active">
+                        <img src="@Model.Car.MainUrlImage" />
                     </div>
-                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
-                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    @foreach (var url in Model.UrlImages.Select(x => x.Url))
+                    {
+                        <div class="slide">
+                            <img src="@url" />
+                        </div>
+                    }
                 </div>
-
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
             </div>
 
             <div style="flex-direction: column;">
-
-                <p style="text-align: center; margin-top: 70px; margin-bottom: 20px; margin-left: 50px; margin-right: 50px; font-size: 24px; font-weight: 200; line-height: 35px;">@Model.Car.Description</p>
-
+                <p class="car-description">@Model.Car.Description</p>
                 <div style="align-items: center;">
-
-                    <p style="margin-top: 90px; text-align: center; font-size: 36px; font-weight: 100;">@Model.Car.Price.ToString("N0") ₽</p>
-
-                </div>     
-                
-                <button class="btn-order" type="submit">Оставить заявку</button>
-                
-                <div id="overlay">
-                    <div id="contact-form">
-                        <form id="createOrderForm" action="/api/createorder" method="post" enctype="multipart/form-data">
-                            @Html.AntiForgeryToken()
-                            <div class="form-group">
-                                <label for="name">Имя</label>
-                                <input type="text" id="name" name="Name" required>
-                                <span class="error-message" id="name-error"></span>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Номер телефона</label>
-                                <input type="text" id="phoneNumber" name="PhoneNumber" required>
-                                <span class="error-message" id="phone-error"></span>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Сообщение</label>
-                                <textarea type="text" id="message" name="Message" required></textarea>
-                                <span class="error-message" id="message-error"></span>
-                            </div>
-                            <textarea type="text" id="Referrer" name="Referrer" hidden>@Model.Car.Name</textarea>
-                            <button type="submit">Отправить</button>
-                        </form>
-                    </div>
+                    <p class="car-price">@Model.Car.Price.ToString("N0") ₽</p>
                 </div>
-
             </div>
 
+            <div class="btn-order-container">
+                <button class="btn-order" type="submit">Оставить заявку</button>
+            </div>
+                
+            <div id="overlay">
+                <div id="contact-form">
+                    <form id="createOrderForm" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="Name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Номер телефона</label>
+                            <input type="text" id="phoneNumber" name="PhoneNumber" required>
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea type="text" id="message" name="Message" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <textarea type="text" id="Referrer" name="Referrer" hidden>@Model.Car.Name</textarea>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
 <footer id="footer">

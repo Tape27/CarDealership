@@ -1,158 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfAdminsProfiles\\974d5809-7c4c-46e1-8228-f85f6c150ff9.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfAdminsProfiles\\974d5809-7c4c-46e1-8228-f85f6c150ff9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\05880303-81d1-4807-acf3-6be8020f2123.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\05880303-81d1-4807-acf3-6be8020f2123.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\0abc9e5b-5fb2-41b2-9dc1-1c6f077aa448.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\0abc9e5b-5fb2-41b2-9dc1-1c6f077aa448.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\1.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\11.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\12.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\12.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\13.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\13.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\14.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\14.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\15.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\15.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\16.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\16.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\17.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\17.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\18.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\18.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\19.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\19.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\2.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\20.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\20.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\2e361cc9-d133-4475-b23f-71d5e01189e9.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\2e361cc9-d133-4475-b23f-71d5e01189e9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\3.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\4.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\5.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\51a99ab2-77a0-4517-b90a-fcf5895a0bb5.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\51a99ab2-77a0-4517-b90a-fcf5895a0bb5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\5e755d52-7c7b-4d18-9c27-70c8e598fcdf.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\5e755d52-7c7b-4d18-9c27-70c8e598fcdf.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\6.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\69c04cbb-8656-4ca7-a110-0914bccc0ba0.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\69c04cbb-8656-4ca7-a110-0914bccc0ba0.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\7.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\77690fc4-ef22-478b-b262-3b628c2ea486.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\77690fc4-ef22-478b-b262-3b628c2ea486.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\7e2ce410-0f01-468d-ba50-93fd652b5a07.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\7e2ce410-0f01-468d-ba50-93fd652b5a07.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\8.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\9.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\94486e9d-7f08-4ade-bc67-45ea430050c9.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\94486e9d-7f08-4ade-bc67-45ea430050c9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\98ce1519-b959-4070-99b4-dfa39d4966ea.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\98ce1519-b959-4070-99b4-dfa39d4966ea.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\9a383310-c036-42a7-b039-fe2a4a12bafb.jpeg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\9a383310-c036-42a7-b039-fe2a4a12bafb.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\DSC09875.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\DSC09875.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\adfe6658-253f-4c3a-ad14-c38a72cfbac31.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\adfe6658-253f-4c3a-ad14-c38a72cfbac31.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\c5cf59d2-975a-4502-a078-67fd52d67d974.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\c5cf59d2-975a-4502-a078-67fd52d67d974.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\d184c9c1-f034-4c66-b59f-a66a9ff9d5e3.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\d184c9c1-f034-4c66-b59f-a66a9ff9d5e3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\e01a772f-65ea-407e-a2e8-656d945aea4b.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\e01a772f-65ea-407e-a2e8-656d945aea4b.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\e130e979-1a8e-4e1c-ae00-f3892adebc76.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\e130e979-1a8e-4e1c-ae00-f3892adebc76.jpg"
-    },
-    {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\ImagesOfCars\\f9eb13b8-4951-411d-9bc6-1bf321a8cd44.jpg",
-      "PackagePath": "staticwebassets\\ImagesOfCars\\f9eb13b8-4951-411d-9bc6-1bf321a8cd44.jpg"
-    },
-    {
       "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\css\\Admin\\Admin_CreateTables.css",
       "PackagePath": "staticwebassets\\css\\Admin\\Admin_CreateTables.css"
     },
@@ -205,8 +53,8 @@
       "PackagePath": "staticwebassets\\css\\Client\\Client_Main.css"
     },
     {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\favicon1.ico",
+      "PackagePath": "staticwebassets\\favicon1.ico"
     },
     {
       "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Admin\\DeleteCar.js",
@@ -217,8 +65,8 @@
       "PackagePath": "staticwebassets\\js\\Admin\\DeleteUser.js"
     },
     {
-      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Admin\\GetNotifCount.js",
-      "PackagePath": "staticwebassets\\js\\Admin\\GetNotifCount.js"
+      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Admin\\GetCountNotification.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\GetCountNotification.js"
     },
     {
       "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Admin\\SendCompletedOrder.js",
@@ -239,6 +87,10 @@
     {
       "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Admin\\ValidateNewUser.js",
       "PackagePath": "staticwebassets\\js\\Admin\\ValidateNewUser.js"
+    },
+    {
+      "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Client\\MenuButton.js",
+      "PackagePath": "staticwebassets\\js\\Client\\MenuButton.js"
     },
     {
       "Id": "C:\\Users\\profi\\Documents\\GitHub\\CarDealership\\CarDealership\\Src\\CarDealership.Web\\wwwroot\\js\\Client\\SendOrder.js",
